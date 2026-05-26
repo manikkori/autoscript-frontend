@@ -1,16 +1,36 @@
-# React + Vite
+# AutoScript AI ✨
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+AutoScript AI is a blazing-fast, AI-powered content and script generation engine designed for YouTube creators, tech influencers, and digital marketers. Built with the MERN stack and powered by Llama-3.1 via Groq API, it instantly generates highly engaging video scripts with built-in B-roll and visual suggestions.
 
-Currently, two official plugins are available:
+## 🚀 Live Demo
+* **Frontend (Vercel):** [Insert your Vercel URL here]
+* **Backend API (Render):** [Insert your Render URL here]
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🌟 Key Features
+* **Blazing Fast AI Generation:** Utilizes Groq's insanely fast inference engine with the Llama-3.1-8b model to generate scripts in milliseconds.
+* **Modern Glassmorphism UI:** A sleek, aesthetic, and fully responsive user interface built with React and Tailwind CSS.
+* **Smart History Management:** Uses Browser Local Storage to provide users with an instant, private dashboard of their previously generated scripts without requiring login.
+* **Database Logging:** Seamlessly integrated with MongoDB for backend analytics and global query logging.
+* **One-Click Actions:** Built-in options to instantly 'Copy to Clipboard' or 'Download as .txt' for a smooth creator workflow.
 
-## React Compiler
+## 💻 Tech Stack
+**Frontend:**
+* React.js (Vite)
+* Tailwind CSS (Styling & Glassmorphism UI)
+* Fetch API
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+**Backend:**
+* Node.js & Express.js
+* MongoDB & Mongoose (Database & Schemas)
+* Groq SDK (LLM Integration)
 
-## Expanding the ESLint configuration
+## 🛠️ Local Installation & Setup
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### Prerequisites
+* Node.js installed on your machine
+* A free [Groq API Key](https://console.groq.com/)
+* A [MongoDB Atlas](https://www.mongodb.com/cloud/atlas) Connection String
+
+### 1. Clone the Repository
+```bash
+git clone [https://github.com/your-username/autoscript-ai.git](https://github.com/your-username/autoscript-ai.git)
