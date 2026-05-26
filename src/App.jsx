@@ -89,7 +89,7 @@ function App() {
                 disabled={loading}
                 className="w-full p-4 rounded-xl font-bold text-lg bg-gradient-to-r from-emerald-500 to-blue-500 hover:from-emerald-400 hover:to-blue-400 transition-all disabled:opacity-50 cursor-pointer"
               >
-                {loading ? 'Generating Script...' : 'Generate Magic ✨'}
+                {loading ? 'Generating Script...' : 'Generate Script!'}
               </button>
             </form>
 
